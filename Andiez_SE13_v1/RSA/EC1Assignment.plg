@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EC1Assignment - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/EC1Assignment.res" /d "_DEBUG" /d "_AFXDLL" "D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\EC1Assignment.rc"" 
+Creating temporary file "C:\TEMP\RSP24.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/EC1Assignment.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\Abstract.cpp"
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\Decrypt.cpp"
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\EC1Assignment.cpp"
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\EC1AssignmentDlg.cpp"
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\Encrypt.cpp"
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\GenPrimeNo.cpp"
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\RSA.CPP"
+]
+Creating command line "cl.exe @C:\TEMP\RSP24.tmp" 
+Creating temporary file "C:\TEMP\RSP25.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/EC1Assignment.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP25.tmp" 
+Creating temporary file "C:\TEMP\RSP26.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/EC1Assignment.pdb" /debug /machine:I386 /out:"Debug/EC1Assignment.exe" /pdbtype:sept 
+".\Debug\Abstract.obj"
+".\Debug\Decrypt.obj"
+".\Debug\EC1Assignment.obj"
+".\Debug\EC1AssignmentDlg.obj"
+".\Debug\Encrypt.obj"
+".\Debug\GenPrimeNo.obj"
+".\Debug\RSA.OBJ"
+".\Debug\StdAfx.obj"
+".\Debug\EC1Assignment.res"
+]
+Creating command line "link.exe @C:\TEMP\RSP26.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Abstract.cpp
+Decrypt.cpp
+EC1Assignment.cpp
+EC1AssignmentDlg.cpp
+Encrypt.cpp
+GenPrimeNo.cpp
+D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\GenPrimeNo.cpp(59) : warning C4101: 'tmp' : unreferenced local variable
+RSA.CPP
+D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\RSA.CPP(108) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\RSA.CPP(136) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\RSA.CPP(154) : warning C4018: '<' : signed/unsigned mismatch
+D:\Bhaskar\Projects-office\BITS Pilani\Sem2\NW Security\RSA\RSA.CPP(159) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/EC1Assignment.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Abstract.sbr" ".\Debug\Decrypt.sbr" ".\Debug\EC1Assignment.sbr" ".\Debug\EC1AssignmentDlg.sbr" ".\Debug\Encrypt.sbr" ".\Debug\GenPrimeNo.sbr" ".\Debug\RSA.SBR""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+EC1Assignment.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

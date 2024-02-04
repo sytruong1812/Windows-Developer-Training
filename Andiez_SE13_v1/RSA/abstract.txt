@@ -1,0 +1,20 @@
+RSA Software-
+This software is a to demonstrate Rivest-Shamir-Adleman (RSA) public encryption scheme. User can specify one or both the prime numbers. Also, software will generate the prime numbers in case user needs it. It shows various intermidiate integer values (like values of e, d and n). Finally software displays the private and public keys. There is a file compare funtion provided by the software. Following are the software features 
+
+1.RSA software can generate two prime numbers randomly. In software, user can specify one or both prime numbers.
+2.Software calculates and displays the value of ‘n’.
+3.It calculates and displays the value of ‘e’.
+4.It generates and displays the value of ‘d’ using ‘e’ and ‘n’. 
+5.Displays both public and private keys for analysis.
+6.User can encrypt a text file using the public key. 
+7.User can decrypt the encrypted file using the private key.
+8.User can compare two text files. 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+Handle File And Config Helper : HFACHelper.lib
+1. Static Lib cung cấp các function dùng trong tính năng Install: 
+ - Download file from URL: Download to buffer
+ - Decrypt buffer: Sử dụng AES 128, mode CBC
+ - Save buffer to file
+ - Systax: <Project.cpp> <url> <des>
+---------------------------------------------------------------
+2. Tool Encrypt file (AES 128 - CBC mode)
+ - Input: File encrypt, Key encrypt (text)
+ - Output: File encrypted
+ - Systax command: encrypt.exe -input abcd.data -output abcd.bin -key qwert 
+	+ Command: -input hoặc -i , -output hoặc -o, -key hoặc -k
+	+ Tùy người dùng nhập full hoặc viết tắt đều được, không quan tâm thứ tự 
+- Show: Lúc người dùng input vào lỗi sẽ print ra Usage 
+	 + Giải thích command, từng thông số và ý nghĩa tương ứng
+	 + Có thêm example đơn giản 
+---------------------------------------------------------------
+3. Create Schedule Task
+- Input: 
+	+ File exe path + args khi execute
+	+ Task name
+	+ Time interval: Bao lâu thì chạy 1 lần
+- Đa phần mình sẽ dùng cho tính năng Update App
+---------------------------------------------------------------
+4. README
+- Hướng dẫn sử dụng
+	+ Lib bao gồm những file nào?
+	 (chủ yếu giải thích file.h để include vào project khác)
+- Mô tả function, miễn sao đọc qua là biết cách sử dụng.
+---------------------------------------------------------------
+5. Lưu ý:
+- Phần lib: Build Static lib
+- Tool Encrypt (console): Yêu cầu làm hoàn chỉnh, sẽ cung cấp cho khách hàng sử dụng

@@ -1,0 +1,17 @@
+Print "\nProgramming Chopper Control Register...";
+Print "\nHeader is received in-band for all ports...";
+Print "\nProgramming SOP/SOC primer values...";
+print "\nProgramming IMR...";
+Print "\nProgramming MPPF Rx Master...";
+Print "\nProgramming MPPF Rx Slave...";
+Print "\nProgramming port configuration register...";
+Print "\nProgramming header parsing rule...";
+Print "\nMapping header parsing rule to port...";
+Print "\nProgramming port lookup memory...";
+print "\nProgramming port rate memory..";
+Print "\nProgramming meta connection lookup memory...";
+print "\nProgramming meta connection rate memory..";
+Print "\nProgramming connection rate memory...";
+Print "\nProgramming control FIFO...";
+Print "\nProgramming tag type and tag value...";
+Print "\nConfirming chopper setup...";
